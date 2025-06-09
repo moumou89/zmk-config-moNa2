@@ -47,10 +47,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                 &kp T                                        &kp Y            &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                 &kp G        &trans         &kp SQT          &kp H            &kp J  &kp K      &kp L    &lt 3 MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                 &kp B        &lt 4 COLON    &kp SEMICOLON    &kp N            &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANG2  &lt 1 SPACE  &lt 3 LANG1    &lt 2 BACKSPACE  &mt LCTRL ENTER                             &kp RIGHT_SHIFT
+&kp Q           &kp W         &kp E         &kp R                 &kp T                                        &kp Y            &kp U  &lt 5 I    &kp O    &kp P
+&kp A           &kp S         &kp D         &kp F                 &kp G        &trans         &kp SQT          &kp H            &kp J  &kp K      &kp L    &lt 3 MINUS
+&kp LEFT_SHIFT  &kp X         &kp C         &kp V                 &kp B        &lt 4 COLON    &kp SEMICOLON    &kp N            &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANG2  &lt 1 SPACE  &lt 3 LANG1    &lt 2 BACKSPACE  &mt LCTRL ENTER                             &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&scroll_up_down>, <&scroll_up_down>;
@@ -58,10 +58,10 @@
 
         layer_1 {
             bindings = <
-&kp TAB  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                        &kp ESCAPE         &mkp MB4        &mkp MB3        &mkp MB5         &kp PLUS
-&trans   &kp DOLLAR       &kp PERCENT   &kp CARET             &kp SEMICOLON          &trans    &kp F5      &kp DOUBLE_QUOTES  &mkp MB1        &kp UP_ARROW    &mkp MB2         &kp EQUAL
-&trans   &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &kp COLON              &kp F4    &kp F2      &kp SQT            &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TILDE
-&trans   &trans           &trans        &trans                &trans                 &trans    &kp DELETE  &kp LA(ENTER)                                                       &kp BACKSLASH
+&kp TAB           &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                        &kp ESCAPE         &mkp MB4        &mkp MB3        &mkp MB5         &kp PLUS
+&kp LEFT_SHIFT    &kp DOLLAR       &kp PERCENT   &kp CARET             &kp SEMICOLON          &trans    &kp F5      &kp DOUBLE_QUOTES  &mkp MB1        &kp UP_ARROW    &mkp MB2         &kp EQUAL
+&kp LEFT_CONTROL  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &kp COLON              &kp F4    &kp F2      &kp SQT            &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TILDE
+&trans            &trans           &trans        &trans                &trans                 &trans    &kp DELETE  &kp LA(ENTER)                                                       &kp BACKSLASH
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
@@ -69,10 +69,10 @@
 
         layer_2 {
             bindings = <
-&kp MINUS          &kp N7        &kp N8        &kp N9         &kp PLUS                                                 &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp SLASH          &kp NUMBER_4  &kp N5        &kp NUMBER_6   &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))    &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
-&mt LEFT_SHIFT N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp PERIOD    &kp EQUAL                  &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&trans             &trans        &trans        &kp LG(LC(C))  &trans        &trans                     &trans          &trans                                                                     &kp PIPE
+&kp MINUS  &kp N7        &kp N8        &kp N9         &kp PLUS                                                 &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp SLASH  &kp NUMBER_4  &kp N5        &kp NUMBER_6   &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))    &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
+&kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp PERIOD    &kp EQUAL                  &kp LS(LC(N))   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
+&trans     &trans        &trans        &kp LG(LC(C))  &trans        &trans                     &trans          &trans                                                                     &kp PIPE
             >;
 
             sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
